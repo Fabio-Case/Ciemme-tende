@@ -1,0 +1,155 @@
+@charset "utf-8";
+body {
+	font-family: times new roman;
+	background-color: #FB0004;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+div.center {
+	background-color: #333333;
+	margin: auto;
+    width: 80%;
+    padding: 10px;    
+    overflow: auto;
+}
+div.header {
+    padding: 30px;
+    font-size: 40px;
+}
+.home {
+	color: #fff;
+	font-size: 24px;
+	border-top: 50px solid #333333;
+}
+ul.lista {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   	overflow: hidden;
+    background-color: #F60F2F;	
+	-moz-border-radius: 10px 30px 10px 30px;
+	border-radius: 10px 30px 10px 30px;
+	text-align: center;
+
+
+}
+
+li.lista {
+    float: left;
+	-moz-border-radius: 10px 30px 10px 30px;
+	border-radius: 10px 30px 10px 30px;
+	text-align: center;
+
+}
+
+li a {
+    display: block;
+    color: #F60F2F;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	color: #000000;
+	font-family: arial black;
+	-moz-border-radius: 10px 30px 10px 30px;
+	border-radius: 10px 30px 10px 30px;
+	text-align: center;
+
+}
+
+li a:hover:not(.active) {
+    background-color: #FF4602;
+}
+
+a.active {
+    background-color: #FFC211;
+}
+
+
+a {
+	color: #FFC211;
+}
+
+img {
+	width: 330px;
+	border-radius: 50px;
+    max-width: 100%;
+}
+ul.dropdown {
+position: relative;
+    display: inline-block;
+    min-width: 160px;
+	padding: 12px 16px;
+	-moz-border-radius: 10px 30px 10px 30px;
+	border-radius: 10px 30px 10px 30px;
+	text-align: center;
+}
+.dropdown-content {
+display: none;
+    position: absolute;
+    background-color: #F60F2F;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+	color: black;
+	-moz-border-radius: 10px 30px 10px 30px;
+	border-radius: 10px 30px 10px 30px;
+	text-align: center;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+	list-style-type: none;
+}
+.imghome {
+	width: 76%;
+	padding: 15px;
+    float: left;
+}
+div.frase {
+    color: #FFFFFF;
+    font-size: 46px;
+    margin-top: 55px;
+    background: linear-gradient(#cc0000, #FF2200, #cc0000);
+    padding: 40px;
+    text-align: center;
+    font-family: Monotype Baskerville;
+    border-radius: 50px;
+}
+div.desc {
+    color: #fff;
+	font-size: 25px;
+	border-top: 50px solid #333333;
+}
+.imggrate {
+    padding: 5px;
+    float: left;
+    width: 500px;
+}
+span {
+    font-size: 32px;
+}
+.imgsole{
+    width: 80%;
+    border-radius: 0px;
+    padding: 10px;
+    text-align: center;
+    float: left
+    
+}
+.sole {
+    padding-top: 10px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.imgsol{
+    width: 75%;
+    border-radius: 0px;
+    padding: 30px;
+    float: left;
+}
+.sol {
+    padding-top: 380px;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.ciao {padding: 60px;}
