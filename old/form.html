@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+     <head>
+        <title>Ciemme tende</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="keywords" content="tende,tende da sole,tende da interno,tende d'interno,zanzeriere,grate di sicurezza,pergole,inferiate,tapparelle,tenda per esterno,tende da giardino,braccio,veneziane,tende a rullo,tende a caduta,tende plissè, gazebo,tende a vetro,bastoni,tende arricciate,tende a pacchetto,tende a pannelli,protezione,cassonetto,sicurezza,casa"/>
+        <link rel="stylesheet" type="text/css" href="stili/stile.css"/>
+        <script type=”text/javascript” src=”controlli.js”></script>
+    </head>
+    <body>
+        <div class="center">
+            <div class="header">
+                <img src="immagini/logo.jpg" alt="logo"/>
+            </div>
+            <ul class="lista">
+                <li class="lista"><a href="index.html">Home</a></li>
+                <li class="lista dropdown"><a href="interno.html">Tende d'interno</a>
+                    <ul class="dropdown-content">
+                        <li><a href="int.html">Galleria</a></li>
+                    </ul>
+                </li>
+                <li class="lista dropdown"><a href="esterno.html">Tende d'esterno</a>
+                    <ul class="dropdown-content">
+                        <li><a href="sole.html">Galleria tende da sole</a></li>
+                        <li><a href="pergole.html">Galleria tende da giardino</a></li>
+                    </ul>
+                </li>
+                <li class="lista"><a href="zanzariere.html">Zanzariere</a></li>
+                <li class="lista"><a href="inferiate.html">Grate di sicurezza</a></li>
+                <li class="lista"><a class="active" href="form.html">Contatti</a></li>
+            </ul>
+            <h2>CONTATTI</h2>
+            <div id="ciemmetende">
+              <span id="ciemme">Ciemme Tende</span>
+                <p>
+                    Via Arno 6
+                    <br>20822 Seveso MB
+                    <br>info@ciemmetende.com
+                    <br>Tel: 0362550914
+                    <br>Cell. 3478768732
+                    <br>P. IVA: 05542160964
+                    <br>C. F.   CSTMNC63L27D286N
+                </p>
+                <br>
+                <a href="https://www.facebook.com/ciemmetende/?ref=bookmarks">
+                    <img class="icona" src="immagini/fb.png" alt="Facebook"/>
+                </a>
+                
+                <a href="https://www.instagram.com/ciemme.tende/?hl=it">
+                    <img class="icona" src="immagini/insta.png" alt="Instagram"/>
+                </a>
+            </div>
+            <div id="form">
+                <form action="./email/send.php" method="POST"> <br>
+                    Nome:<br>
+                <input type="text" name="name" style="width: 735px"><br>
+                    E-mail:<br>
+                <input type="text" name="mail" style="width: 735px"><br>
+                    Telefono:<br>
+                <input type="text" name="tel" style="width: 735px"><br>
+                    Indirizzo: <br>
+                <input type="text" name="indirzzo" style="width: 735px"><br>
+                    Oggetto: <br>
+                <input type="text" name="ogg" style="width: 735px"><br>
+                    Messaggio:<br>
+                    <textarea rows="6" name="message" cols="100"></textarea><br><br>
+                <input type="submit" value="invia">
+                <input type="reset" value="Reset">
+            </form>
+            </div>
+        </div>
+</body>
+</html>
